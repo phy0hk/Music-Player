@@ -1,7 +1,7 @@
 import javax.sound.sampled.*;
 import java.io.File;
 import java.io.IOException;
-
+import javax.media.*;
 
 public class function {
     static File musicFile = new File("/home/phyo/Downloads/StarWars3.wav");
