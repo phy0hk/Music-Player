@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 import javax.media.*;
 import javax.media.Player;
-import javax.media.Manager;
 import java.net.URL;
 
 public class Main {
