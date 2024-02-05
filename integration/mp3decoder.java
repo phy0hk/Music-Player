@@ -4,7 +4,7 @@ import javax.sound.sampled.*;
 
 public class mp3decoder {
   public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException{
-    File file = new File("integration/Sample Song/Amazing.mp3");
+    File file = new File("Sample Song/Amazing.mp3");
   AudioInputStream mp3in = AudioSystem.getAudioInputStream(file);
   AudioInputStream mp3d = null;
   AudioFormat format = mp3in.getFormat();
